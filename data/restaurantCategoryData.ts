@@ -1,0 +1,18 @@
+export const restaurantCategoryData = [
+  { code: 'G001', category: '居酒屋' },
+  { code: 'G002', category: 'ダイニングバー・バル' },
+  { code: 'G003', category: '創作料理' },
+  { code: 'G004', category: '和食' },
+  { code: 'G005', category: '洋食' },
+  { code: 'G006', category: 'イタリアン・フレンチ' },
+  { code: 'G007', category: '中華' },
+  { code: 'G008', category: '焼肉・ホルモン' },
+  { code: 'G017', category: '韓国料理' },
+  { code: 'G009', category: 'アジア・エスニック料理' },
+  { code: 'G010', category: '各国料理' },
+  { code: 'G011', category: 'カラオケ・パーティ' },
+  { code: 'G012', category: 'バー・カクテル' },
+  { code: 'G013', category: 'ラーメン' },
+  { code: 'G016', category: 'お好み焼き・もんじゃ' },
+  { code: 'G014', category: 'カフェ・スイーツ' },
+];
