@@ -1,11 +1,22 @@
 <template>
-  <Tutorial/>
+  <div>
+    <h1>ホットペッパーグルメがおすすめする飲食店</h1>
+    <SelectedPrefecture />
+    <SelectedMiddleAreaAndFood />
+    <GoogleMap />
+  </div>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
+<script>
+import SelectedPrefecture from '../components/HotpepperMap/SelectedPrefecture.vue';
+import SelectedMiddleAreaAndFood from '../components/HotpepperMap/SelectedMiddleAreaAndFood.vue';
+import GoogleMap from '../components/HotpepperMap/GoogleMap.vue';
 
-export default Vue.extend({
-  name: 'IndexPage'
-})
+export default {
+  components: {
+    SelectedPrefecture,
+    SelectedMiddleAreaAndFood,
+    GoogleMap,
+  }
+}
 </script>
